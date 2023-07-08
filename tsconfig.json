@@ -31,7 +31,10 @@
       ],
       "@pages/*": [
         "pages/*"
-      ]
+      ],
+      "@public/*": [
+        "../public/*"
+      ],
     },
     "plugins": [
       {

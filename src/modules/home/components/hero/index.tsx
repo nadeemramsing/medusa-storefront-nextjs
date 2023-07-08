@@ -1,6 +1,8 @@
 import UnderlineLink from "@modules/common/components/underline-link"
 import Image from "next/image"
 
+import HeroImage from "@public/hero.jpg"
+
 const Hero = () => {
   return (
     <div className="h-[90vh] w-full relative">
@@ -15,7 +17,7 @@ const Hero = () => {
         <UnderlineLink href="/store">Explore products</UnderlineLink>
       </div>
       <Image
-        src="/hero.jpg"
+        src={HeroImage.src}
         loading="eager"
         priority={true}
         quality={90}

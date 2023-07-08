@@ -1,6 +1,8 @@
 import UnderlineLink from "@modules/common/components/underline-link"
 import Image from "next/image"
 
+import CTAImage from "@public/cta_one.jpg"
+
 const FooterCTA = () => {
   return (
     <div className="bg-amber-100 w-full">
@@ -14,7 +16,7 @@ const FooterCTA = () => {
 
         <div className="relative w-full aspect-square small:w-[35%] small:aspect-[28/36]">
           <Image
-            src="/cta_three.jpg"
+            src={CTAImage.src}
             alt=""
             className="absolute inset-0"
             fill
